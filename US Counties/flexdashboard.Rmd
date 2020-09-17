@@ -11,21 +11,36 @@ setwd("C:/Users/yungz/Desktop/Ben R/R Projects/US Counties and Population/US Cou
 load(".RData")
 library(flexdashboard)
 library(leaflet)
+library(tidyverse)
+library(DT)
 ```
 
-Column {data-width=650}
------------------------------------------------------------------------
-
-### Chart A
+Map
+=====================================
 
 ```{r warning=FALSE, message=FALSE}
 leaflet(us_counties_json) %>%
   setView(-93.65, 42.0285, zoom = 4) %>%
   addTiles() %>%
   addPolygons(stroke = FALSE, smoothFactor = 0.3, fillOpacity = 1,
-              fillColor = ~pal(log10(us_counties_json$merged_us_counties_POPESTIMATE2019))) %>%
+              fillColor = ~pal(us_counties_json$merged_us_counties_POPESTIMATE2019)) %>%
   addLegend(position = "bottomleft", pal = pal, 
             values = ~na.omit(us_counties_json$merged_us_counties_POPESTIMATE2019),
             title = "2019 Population Estimates")
+```
+
+Table
+=====================================
+
+```{r}
+DT::datatable(
+  table_data,
+  filter = "top",
+  extensions = "Scroller",
+  rownames = FALSE,
+  style = "bootstrap",
+  class = "compact",
+  width = "100%",
+  options = list(deferRender = TRUE, scrollY = 300, scroller = TRUE))
 ```
 
