@@ -1,2 +1,2 @@
-# US-Counties-and-Population
+# US Counties and Population
 Mapping populations by county
