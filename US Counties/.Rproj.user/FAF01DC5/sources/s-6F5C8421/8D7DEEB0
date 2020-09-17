@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1600303039203.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3319821502",
+    "id" : "8D7DEEB0",
+    "lastKnownWriteTime" : 1600303215,
+    "last_content_update" : 1600303215742,
+    "path" : "C:/Users/yungz/Desktop/Ben R/R Projects/US Counties and Population/US Counties/flexdashboard.Rmd",
+    "project_path" : "flexdashboard.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

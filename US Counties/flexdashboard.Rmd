@@ -1,0 +1,31 @@
+---
+title: "Mapping US Population by County"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, echo=FALSE}
+setwd("C:/Users/yungz/Desktop/Ben R/R Projects/US Counties and Population/US Counties")
+load(".RData")
+library(flexdashboard)
+library(leaflet)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r warning=FALSE, message=FALSE}
+leaflet(us_counties_json) %>%
+  setView(-93.65, 42.0285, zoom = 4) %>%
+  addTiles() %>%
+  addPolygons(stroke = FALSE, smoothFactor = 0.3, fillOpacity = 1,
+              fillColor = ~pal(log10(us_counties_json$merged_us_counties_POPESTIMATE2019))) %>%
+  addLegend(position = "bottomleft", pal = pal, 
+            values = ~na.omit(us_counties_json$merged_us_counties_POPESTIMATE2019),
+            title = "2019 Population Estimates")
+```
+

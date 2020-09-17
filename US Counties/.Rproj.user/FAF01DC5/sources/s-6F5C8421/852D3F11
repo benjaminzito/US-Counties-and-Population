@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1600300509141.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "851240753",
+    "id" : "852D3F11",
+    "lastKnownWriteTime" : 1600302393,
+    "last_content_update" : 1600302393204,
+    "path" : "C:/Users/yungz/Desktop/Ben R/R Projects/US Counties and Population/US Counties/geojson.R",
+    "project_path" : "geojson.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
