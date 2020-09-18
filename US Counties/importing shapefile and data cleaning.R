@@ -94,7 +94,7 @@ write.csv(merged_county_data, file = "merged_us_counties.csv")
 library(geojsonio)
 
 #subsetting data I need - I only want 2019 pop estimates and change yoy
-merged_county_data_copy <- merged_county_data[,c(1:14,25,36)]
+merged_county_data_copy <- merged_county_data[,c(1:14,26,36)]
 
 #getting the long and lat for each county
 library(mapdata)
