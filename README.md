@@ -1,5 +1,5 @@
 # US Counties and Population
-I've been trying to get my mapping game up and I thought it would be cool to make a map showing the population of each county in the U.S. Halfway through though I realized that the populations are extremely varied and there are some extreme outliers (Los Angeles County).
+I've been trying to get my mapping game up and I thought it would be cool to make a map showing the population of each county in the U.S. Halfway through though I realized that the populations are extremely varied and there are some extreme outliers (Los Angeles County, for example). Plus, most counties have pretty small populations.
 
 I used two files from the U.S. Census Bureau: 
 1) A shape file with the cartographic boundaries: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
