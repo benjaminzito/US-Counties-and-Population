@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/662167/b4a6d9c1ad394a88bfe899cc05c5a366
+bundleId: https://api.rpubs.com/api/v1/document/662167/b4a6d9c1ad394a88bfe899cc05c5a366
+url: http://rpubs.com/benjaminzito/662167/edit
+when: 1600989734.81857
