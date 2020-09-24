@@ -15,6 +15,12 @@ library(tidyverse)
 library(DT)
 ```
 
+```{r echo=FALSE}
+pal <- colorBin(
+  palette = "Blues", bins = c(86,25000,50000,100000,500000,1000000,5000000,10000000,10039107))
+```
+
+
 Map
 =====================================
 
