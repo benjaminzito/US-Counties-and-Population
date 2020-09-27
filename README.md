@@ -1,5 +1,5 @@
 # US Counties and Population
-I've been trying to improve my mapping skills and I thought it would be cool to make a map showing the population of each county in the U.S. Halfway through though I realized that the populations are extremely varied and there are some extreme outliers (Los Angeles County, for example).
+I've been trying to improve my mapping skills and I thought it would be cool to make a map showing the population of each county in the U.S.
 
 I used two files from the U.S. Census Bureau: 
 1) A shape file with the cartographic boundaries: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
@@ -14,7 +14,6 @@ Steps to make the map:
 5) Mapped the GeoJSON in QGIS
 6) Imported the GeoJSON into R and made a flexdashboard with a map using leaflet
 
-I did all this and realized the map wouldn't even look good beacause the county populations are extremely skewed to populations under 100,000. At least I improved my QGIS and R skills.
 
 ![US Counties Pops](https://user-images.githubusercontent.com/51300485/93540601-30229b00-f922-11ea-9f83-84df6fac3918.png)
 
